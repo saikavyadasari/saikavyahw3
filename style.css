@@ -1,0 +1,115 @@
+
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+	
+}
+body {
+    max-width: 80ch;
+}
+body {
+
+    display: grid;
+    place-items: center;
+    background-color:  #060a51; 
+    color: white; 
+     
+}
+
+.property{
+
+    color:white;
+    margin: 1rem 0;
+    column-gap: 1rem;
+}
+.search-form{
+    justify-content: center;
+    align-items:center;
+    height: auto;
+flex-basis: 30%;
+cursor: pointer;
+}
+
+a {
+    color: rgb(246, 255, 0);
+}
+
+
+header h1, header h2, header h3 ,header h4 {
+    font-size: 3em;
+}
+
+header {
+    background-color: rgba(69, 13, 201, 0.963); 
+    padding: 0px;
+}
+footer{
+    padding: 0px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 50px; 
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: whitesmoke; 
+}
+
+
+nav ul:after {
+    content: "";
+    display: block;
+    clear: both;
+    
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+h1, h2, h3, h4{
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+}
+
+h1 {
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+
+h2 {
+    margin-top: auto;
+    margin-bottom:auto;
+    text-align: left;
+}
+
+h3 {
+    margin-top: auto;
+    margin-bottom: auto  ;
+    
+}
+h4 {
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+div {
+    align-items: center;
+}
